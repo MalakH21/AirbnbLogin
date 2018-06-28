@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/terms"
         android:layout_width="380dp"
         android:layout_height="78dp"
         android:layout_alignParentBottom="true"
@@ -29,15 +29,16 @@
         android:textColor="@color/white" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/top"
         android:layout_width="211dp"
         android:layout_height="48dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
         android:text="Login In or Sign Up"
         android:textColor="@color/black"
-        android:textSize="20dp"/>
+        android:textSize="18dp" />
 
     <ImageView
         android:id="@+id/login"
@@ -56,42 +57,26 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="95dp"
-        android:fontFamily="casual"
+        android:fontFamily="serif"
         android:text="Show More"
         android:textColor="@color/white"
         android:textSize="21dp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="222dp"
-        android:layout_height="88dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/imageView4"
-        app:srcCompat="@drawable/button" />
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="222dp"
-        android:layout_height="88dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="113dp"
-        app:srcCompat="@drawable/button" />
-
-    <TextView
-        android:id="@+id/textView4"
+    <Button
+        android:id="@+id/signIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="148dp"
-        android:layout_toStartOf="@+id/show_more"
-        android:text="Sign Up" />
+        android:layout_alignStart="@+id/login"
+        android:layout_marginBottom="132dp"
+        android:text="Button" />
 
-    <TextView
-        android:id="@+id/textView5"
+    <Button
+        android:id="@+id/logIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView4"
-        android:layout_marginEnd="92dp"
-        android:text="Log In" />
+        android:layout_alignTop="@+id/signIn"
+        android:layout_toEndOf="@+id/top"
+        android:text="Button" />
+
 </RelativeLayout>
