@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Airbnb Login</string>
+    <string name="terms">By signing up, I agree to Airbnbs Terms of Service, Privacy Policy, Guest Refund Policy, and Host Guarantee Terms.</string>
+</resources>
